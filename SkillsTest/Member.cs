@@ -54,6 +54,27 @@ public class Member
         {
             totalFee = totalFee - 500;
         }
+        
+        //Opgave 10 - User Stories 2
+        foreach (var dog in Dogs)
+        {
+            DateTime dogDateTime = new DateTime(dog.YearOfBirth, 1, 1); 
+            int dogYear = DateTime.Now.Year - dogDateTime.Year;
+            if (10 < dogYear)
+            {
+                totalFee = totalFee - 250;
+            }
+        }
+        
+        //Opgave  10 - User Stories 1
+        foreach (var dog in Dogs)
+        {
+             if (dog.Name == "Arthur")
+             {
+                 totalFee = totalFee * 0.5;
+             }
+        }
+        
         return totalFee;
     }
 

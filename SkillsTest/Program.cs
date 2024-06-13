@@ -7,8 +7,8 @@
             //Opgave 2 & 11
             Console.WriteLine("OPGAVE 2:");
             Dog dog1 = new Dog(1, "Fido", DogRace.Labrador, 2015);
-            Dog dog2 = new Dog(2, "Rex", DogRace.Bulldog, 2018);
-            Dog dog3 = new Dog(3, "Max", DogRace.Poodle, 2017);
+            Dog dog2 = new Dog(2, "Arthur", DogRace.Bulldog, 2018);
+            Dog dog3 = new Dog(3, "Rex", DogRace.Poodle, 2017);
             
             Console.WriteLine($"{dog1.Name} is a {dog1.Race} born in {dog1.YearOfBirth}");
             Console.WriteLine($"{dog2.Name} is a {dog2.Race} born in {dog2.YearOfBirth}");
@@ -16,9 +16,9 @@
             
             //Opgave 3
             Console.WriteLine("\nOPGAVE 3:");
-            Member member1 = new Member(1, "John Doe", "fake@gmail.com", "123456789", "123 Fake St", new DateTime(1990, 1, 1));
-            Member member2 = new Member(2, "Jane Doe", "fake@gmail.com", "42311253", "531 Fake St", new DateTime(1992, 5, 15));
-            Member member3 = new Member(3, "John Smith", "fake@gmail.com", "17456338", "853 Fake St", new DateTime(1954, 8, 27));
+            Member member1 = new Member(1, "Jens Jensen", "fake@gmail.com", "123456789", "123 Fake St", new DateTime(1990, 1, 1));
+            Member member2 = new Member(2, "Jacob Jacobsen", "fake@gmail.com", "42311253", "531 Fake St", new DateTime(1992, 5, 15));
+            Member member3 = new Member(3, "John Johnsen", "fake@gmail.com", "17456338", "853 Fake St", new DateTime(1954, 8, 27));
             
             Console.WriteLine(member1.ToString());
             Console.WriteLine(member2.ToString());
